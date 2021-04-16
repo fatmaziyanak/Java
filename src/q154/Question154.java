@@ -12,7 +12,7 @@ public class Question154 {
 	        try{
 	            while(true){                  //infinite doner. Memoriden kaynaklanan mainde bir hata olusur. Memoryoverflow da hata yani.
 	                myList.add("My String");
-//	                System.out.println("While loop");
+                System.out.println("While loop");
 	            }
 	        }catch (RuntimeException re){
 	            System.out.println("Cought a RuntimeException");

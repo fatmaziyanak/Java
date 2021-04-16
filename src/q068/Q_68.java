@@ -18,6 +18,8 @@ package q068;
 	            public static void method1(){ // line n1
 	                try {
 	                    throw 3 > 10 ? new MyException() : new IOException();
+	             //   } catch (MyException ie) {
+	             //       System.out.println("A");
 	                } catch (IOException ie) {
 	                    System.out.println("I");
 	                } catch (Exception re) {

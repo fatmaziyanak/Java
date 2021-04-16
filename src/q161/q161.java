@@ -9,7 +9,7 @@ public class q161 {
 		Integer pages =20;
 		
 		
-
+System.out.println(price);
 	}
 
 }

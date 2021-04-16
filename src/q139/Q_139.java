@@ -5,7 +5,7 @@ public class Q_139 {
 
 	public static void displayMsg() {
 
-	//System.out.println("Welcome visit count"+ count++); // line1
+	System.out.println("Welcome visit count"+ count++); // line1
 		// hata burda cunku count u static bir method icinde cagirmaya calismis
 		// instance variable asagidaki static methodun icinde cagiramiyoruz
 	}

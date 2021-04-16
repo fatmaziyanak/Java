@@ -3,7 +3,7 @@ public class Question153 {
 
 
 	//public	class Fieldint{
-			char c;
+			Character c;
 			boolean b;
 			float f;
 			void printAll() {

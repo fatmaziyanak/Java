@@ -24,11 +24,12 @@ if ((s1=="Moon")&&(s2.equals("Moon"))) {
 	System.out.println("B");
 }
 if (s1.equalsIgnoreCase(s2.s)) {
+	
 	System.out.println("C");
 }else {
 	System.out.println("D");
 }
-
+//System.out.println(s2.s);
 }}
 
 

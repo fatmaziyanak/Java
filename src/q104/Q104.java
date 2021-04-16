@@ -3,6 +3,20 @@ package q104;
 
 
 public class Q104 {
+	 public static void main (String[] args) {
+	        Base b1 = new DerivedB();
+	        Base b2 = new DerivedA();
+	        Base b3 = new DerivedB();
+	   //     b1.test();
+	       
+	        Base b4 = b3; //new DerivedB();
+	        b1 = (Base) b2; //new DerivedA();
+	    //   Base b5=(DerivedA)b1;
+	    //   b5.test();
+	        b1.test();
+	        b4.test();
+	    }
+
 }
 	
 	//Base.java:
@@ -14,7 +28,7 @@ public class Q104 {
 
 	// DerivedA.java:
 	class DerivedA extends Base {
-	    public void test() {
+	    public void test1() {
 	        System.out.println("DerivedA ");
 	    }
 	}
@@ -23,16 +37,7 @@ public class Q104 {
 	    public void test () {
 	        System.out.println("DerivedB ");
 	    }
-	    public static void main (String[] args) {
-	        Base b1 = new DerivedB();
-	        Base b2 = new DerivedA();
-	        Base b3 = new DerivedB();
-	        Base b4 = b3; //new DerivedB();
-	        b1 = (Base) b2; //new DerivedA();
-	        b1.test();
-	        b4.test();
-	    }
-
+	   
 	}
 	/*
 	 *What is the result?

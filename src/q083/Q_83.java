@@ -2,11 +2,10 @@ package q083;
 
 public class Q_83 {
 
-}
-class Test8 {
+
 	public static void main(String[] args) {
 
-		Test8 ts = new Test8();
+		Q_83 ts = new Q_83();
 		System.out.println(isAvailable);
 		isAvailable = ts.doStuff();
 		System.out.println(isAvailable);

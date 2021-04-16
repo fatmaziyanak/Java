@@ -4,18 +4,22 @@ public class Question146 {
 
 	public static void main(String[] args) {
 
-		String[] strs=new String[2];
-//	
+		String[] strs=new String[2]; //{"1","2"};
+ //strs[0]="1";
+ //strs[1]="2";
 		int idx=0;
+
+	//we can not concat if array is null bos olan array e concat yapamiyrz
+
 		for (String s : strs) {
-//		//strs[0] = "A";
-		System.out.println(strs[0].concat("element "));
-//		//we can not concat if array is null bos olan array e concat yapamiyrz
-//
-//		for (String s : strs) {
-//			strs[idx].concat("element "+idx);
-//			idx++;
+		strs[idx].concat("element "+idx);
+			idx++;
 		}
+	//	for (String s : strs) {
+	//		strs[idx] = "**";
+	//		strs[idx] = strs[idx].concat("element "+idx);
+	//		idx++; // Haticenin gosterdigi method:)
+	//	}
 //
 		for (idx = 0; idx < strs.length; idx++) {
 			System.out.println(strs[idx]);

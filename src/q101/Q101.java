@@ -13,9 +13,12 @@ public class Q101 {
         for (int x:numbers){
             System.out.print(" "+x);
         }
+//            int[] a= {1,2,3};
+//                  a= new int[] {1,2,3,4,5};
+       
 
-}
-}
+
+}}
 /*
 * What is the result?
 A. 10 20 30 40

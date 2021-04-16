@@ -3,6 +3,10 @@ package q131;
 public class Question131 {
 
 
+    public static void main (String[] args) {
+        Vehicle y = new Car(20);
+        System.out.println(y);
+    }}
     class Vehicle {
         int x;
 
@@ -18,11 +22,12 @@ public class Question131 {
                   int y;
 
                   Car() {
-                      super(10); // line n2
+                      super(10);
+                      this(20);  // line n2
                   }
 
                   Car(int y) {
-                      super(y);
+                  //    super(y);
                       this.y = y;
                   }
 
@@ -30,11 +35,7 @@ public class Question131 {
                       return super.x + ":" + this.y;
                   }
 
-                  public static void main (String[] args) {
-                      Vehicle y = new Car(20);
-                      System.out.println(y);
-                  }
-              }}
+              }
 
 //What is the result?
 //A. Compilation fails at line n2.

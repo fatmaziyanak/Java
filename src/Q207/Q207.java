@@ -8,8 +8,8 @@ public class Q207 {
         arr[1]=new int[]{1,3};
 
         for (int[] a:arr){//length 2 oldugu icin 2 ye kadar olan degerleri veriyor
-            for (int i = 0; i < arr.length; i++) {
-                System.out.println(a[i]+" ");
+            for (int i = 0; i < arr.length; i++) { //a.lenght olsaydi normal yazdiracakti
+                System.out.print(a[i]+" ");
             }
             System.out.println();
            //207 answer 1 3 1 3 

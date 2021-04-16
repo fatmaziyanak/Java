@@ -12,14 +12,17 @@ public class Q168 {
 				idx++;
 				
 			}
-		
+		//omas, null, null
 		}
 		catch (Exception e) {
 			System.out.println("Invalid name");
-		}for (String p:pwd) {
+			System.out.println(" ");
+				
+		}
+				
+		for (String p:pwd) 	{
 			System.out.println(p);
-			
-			
+					
 		}
 
 	}

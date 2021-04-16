@@ -5,8 +5,11 @@ public class Q92 {
 
     public static void main(String[] args) {
         //line n1
+    	//double x = 1;
     	//String x = "1";
-    	Integer x = new Integer("1");
+    	Integer x = new Integer("2");
+   // 	System.out.println(x.TYPE);
+    	
         switch (x) {
             case 1:
                 System.out.println("One");

@@ -4,12 +4,16 @@ public class Q011 {
 	public static void main(String[] args) {
 		String[] strs = {"A", "B"};
 		int idx = 0;
-		for (String s : strs) {
+	      for (String s : strs) {
+			//for( idx=0 ; idx<strs.length; idx++) {
 			strs[idx].concat(" element " + idx);
-			idx++;		
+			
+		//	System.out.print(strs[idx]);
 			// idx is incremented in the loop but nothing is affected outside of the loop	
 			// there is no syso nothing is printed from this loop
-		}	
+		}
+		System.out.println("");
+
 		for (idx = 0; idx < strs.length; idx++) {
 			System.out.println(strs[idx]);
 		}

@@ -1,8 +1,5 @@
 package q140;
-
 public class Question140 {
-
-	
 	    public static void main(String[] args) {
 	        int iVar = 100;
 	        float fVar = 100.100f;

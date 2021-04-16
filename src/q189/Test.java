@@ -6,8 +6,8 @@ public class Test {
     public int var =200;
 
     public String toString () {
-        return stVar + ":" + var;
-    }
+       return stVar + ":" + var;
+   }
     public static void main(String[] args) {
         Test t1 = new Test();
          t1.var =300;

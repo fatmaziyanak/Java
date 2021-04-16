@@ -22,6 +22,8 @@ public class Q127 {
 		grid [0][1] = 'o';
 		grid [2][2] = 'x';
 		grid [1][2] = 'o';
+	//	grid[2][1]='x';
+		
 		
 		// line n1
 	}

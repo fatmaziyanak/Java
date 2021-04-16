@@ -18,7 +18,7 @@ public class Q200 {
         // O zaman bize int donduren bir method
         // akla getirmeli oda indexOf(p2)tur bir elemanin indexsini bulur
         //  indexlerde integerdir
-      //  int f= ps.indexOf(new Patient("Mike")); //object bos olmus olur
+     //   int f= ps.indexOf(new Patient("Mike")); //object bos olmus olur
 
 //		 Patient p=new Patient("Mike");
 ////		 ps.add(p);

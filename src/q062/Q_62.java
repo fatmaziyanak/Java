@@ -22,7 +22,7 @@ abstract class Book implements Readable {   //line n2
 }
 
 class EBook extends Book {       //line n3
-    public void download(){} //soruda bu kismi yok  //classin icine interface deki methodlari implement etmek zorundasin
+  //  public void download(){} //soruda bu kismi yok  //classin icine interface deki methodlari implement etmek zorundasin
     
     public void readBook() {
         System.out.println("Read E-Book");

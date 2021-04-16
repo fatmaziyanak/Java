@@ -12,6 +12,8 @@ public class Q199 {
         } else {
             res = "No Result";
         }
+        res = stuff.equals("TV") ? "Walter": stuff.equals("Movie") ? "White" : "No Result";
+   
     }
 }
 

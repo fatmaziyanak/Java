@@ -5,18 +5,18 @@ class CD{
 	CD (int r){
 		this.r = r;
 	}
+//	CD(){};
 }
 public class DVD extends CD{
 	int c;
 	DVD(int r, int c){
 		// line n1
 		super(r);
+	//	super.r=r; to use this we need a empty constructor
 		this.c = c;
 	}
 	public static void main(String[] args) {
 		DVD dvd = new DVD(10,  20);
-		
-		
 		
 		System.out.println(dvd.r);
 		System.out.println(dvd.c);

@@ -4,6 +4,7 @@ public class Q056 {
 		int x = 5;
 		while (isAvaillable(x)) {
 			System.out.print(x);
+			//System.out. print (--x);
 			x--;  // At line 7, insert x --;
 		}
 	}

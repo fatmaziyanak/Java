@@ -8,8 +8,8 @@ public class Q_78 {
 		for (String str:str2) {
 			str3=str3+str;
 		}
-		boolean b1= (str1.equals(str3));
-		boolean b2=(str1==str3);
+		boolean b1= (str1.equals(str3)); //icerigine bakiyor
+		boolean b2=(str1==str3); //hafizadaki yerini kontrol ediyor,
 		System.out.println(b1+", "+b2);
 	}
 

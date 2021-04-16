@@ -1,8 +1,5 @@
 package q082;
 
-public class Q_82 {
-
-}
 class Alpha{
 
     int ns; //50
@@ -18,9 +15,10 @@ class Alpha{
         System.out.println("ns = "+ns+" s = "+s);
     }
 }
- class TestA{
+ class Q_82{
     public static void main(String[] args) {
         Alpha ref1 = new Alpha(50);
+        ref1.doPrint();
         Alpha ref2 = new Alpha(125);
         Alpha ref3 = new Alpha(100);
 

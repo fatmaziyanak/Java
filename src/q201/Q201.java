@@ -1,6 +1,17 @@
 package q201;
 
 public class Q201 {
+	
+	 public static void main(String[] args){
+
+	        Student [] students= new Student[3];
+	     //   students[0]=new Student(null);
+	        students[1]=new Student("Richard");
+	        students[2]=new Student("Donald");
+	        for( Student s:students){
+	            System.out.println(" "+s.name);
+	        }
+	     }
 }
 class Student {
     String name;
@@ -9,15 +20,7 @@ class Student {
     }
 }
 class Test{
-    public static void main(String[] args){
-
-        Student [] students= new Student[3];
-        students[1]=new Student("Richard");
-        students[2]=new Student("Donald");
-        for( Student s:students){
-            System.out.println(" "+s.name);
-        }
-     }
+   
 
 //second way
 //

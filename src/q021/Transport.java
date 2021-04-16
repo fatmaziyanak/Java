@@ -13,6 +13,11 @@ class Bus extends Vehicle{
 public class Transport {
 	public static void main(String[] args) {
 		Vehicle v = new Bus();
+		System.out.println("********");
+		Vehicle m=new Vehicle();
+		System.out.println("*******");
+		Bus v1 = new Bus();
+
 	}
 }
 //What is the result?

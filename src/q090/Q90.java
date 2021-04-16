@@ -9,6 +9,7 @@ public class Q90 {
 		Long s3 = (long) s1+s2;   // line 1 	// wrapper oldugu icin casting sart. primitive olsaydi casting e gerek yoktu
 		//String s4 = (String) (s3 * s2); 	//line 2  //bu satırda hata verir string numberla çasting olmaz
 		//System.out.println("Sum is "+ s4); 	// Cannot cast from long to String
+	//System.out.println(s3);
 	}
 
 	/*

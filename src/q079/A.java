@@ -1,11 +1,12 @@
 package q079;
 
-public class Q_79 {
 
-}
-class A {
+public class A {
     public A() {
         System.out.println("C ");
+    }
+    public static void main(String[] args) {
+        C c = new C(); //constructor run edilirken  parent to child class gider
     }
 }
 
@@ -21,9 +22,7 @@ class A {
         public C(){      // line n2
             System.out.println("A ");
         }
-        public static void main(String[] args) {
-            C c = new C(); //constructor run edilirken  parent to child class gider
-        }
+       
     }
     /*
     What is the result? 

@@ -8,7 +8,7 @@ public class Q160 {
 		x=0;
 		do {
 			System.out.print("*");
-		}while (x++<3);
+		}while (x++<3); // (++x) farkli sonuc verir
 		}
 		}
 

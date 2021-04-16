@@ -1,4 +1,4 @@
-package OCA223_Q61_71;
+package q064;
 
 
 //MyString.Java:
@@ -10,7 +10,10 @@ class MyString {
         this.msg =msg;
 
     }
+//    public String toString(){
+//		return this.msg=msg;}
 }
+
 //Test.java:
 //package p1;
 public class Q_64 {

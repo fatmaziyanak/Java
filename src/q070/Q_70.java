@@ -5,9 +5,10 @@ public class Q_70 {
         int x = 10;
         int y = ++x;
         int z = 0;
-
+//System.out.println(x);
         if(y >= 10 | y<= ++x){
             z = x;
+     //       System.out.println(x);
         }else {
             z = x++;
         }

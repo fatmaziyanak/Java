@@ -3,7 +3,12 @@ package q094;
 
 
 public class Q94 {
-
+	public static void main(String[] args) {
+        Person p1 = new Person("Jesse");
+        Person p2 = new Person("Walter",52);
+        System.out.println(p1.show());
+        System.out.println(p2.show());
+    }
 }
 class Person {
     String name;
@@ -14,7 +19,9 @@ class Person {
     }
 
     public Person(String name, int age){    // line n2
-     // Person(name);
+      Person(name);
+   //   this(name);
+     // new Person(name); now it works
 
         setAge(age);
     }
@@ -32,12 +39,7 @@ class Person {
         return name + " " + age;
     }
 
-    public static void main(String[] args) {
-        Person p1 = new Person("Jesse");
-        Person p2 = new Person("Walter",52);
-        System.out.println(p1.show());
-        System.out.println(p2.show());
-    }
+    
 
 }
 

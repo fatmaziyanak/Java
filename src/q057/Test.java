@@ -37,7 +37,7 @@ public class Test {
 		
 //		checkAge (iList, () -> p.getAge() > 40);
 //		checkAge (iList, Person p -> p.getAge() > 40);
-		checkAge (iList, p-> p.getAge() > 40);
+//		checkAge (iList, p-> p.getAge() > 40);
 //		checkAge (iList, (Person p) -> {p.getAge() > 40});
 		
 

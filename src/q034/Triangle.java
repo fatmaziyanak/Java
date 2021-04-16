@@ -1,7 +1,7 @@
 package q034;
 
 public class Triangle {
-	static double area;
+	  static double area;
 	int b= 2, h = 3;
 
 	public static void main(String[] args) {

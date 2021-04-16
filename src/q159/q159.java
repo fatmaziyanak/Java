@@ -14,6 +14,7 @@ package q159;
 public static void main(String[]args) {
 			q159 obj =new q159();
 			Book objBook= new Book();
+		//	obj.method(objBook, obj.count);
 
 			System.out.println(objBook.pages+":"+obj.count);
 			obj.method(objBook, obj.count);

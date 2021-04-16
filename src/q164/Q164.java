@@ -7,7 +7,7 @@ public class Q164 {
 	intArr[2]=intArr[4];
 	intArr[4]=90;
 	
-	
+	for(int i :intArr) System.out.print(i + " ");
 
 }
 }

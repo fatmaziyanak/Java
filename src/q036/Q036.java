@@ -11,6 +11,7 @@ public class Q036 {
 			}				//true oldugu
 			System.out.println("Work Done"); // printed out
 			break;
+			//continue;
 		}
 	}
 }

@@ -13,6 +13,11 @@ package clothing.pants;
 //line n1
 import clothing.shirt;
 public class S170 {
+	public static void main(String[] args) {
+		S170 trouser = new S170 ();
+		trouser.matchShirt();
+
+	}
 	
 	public void matchShirt() {
 		//line n2
@@ -22,11 +27,7 @@ public class S170 {
 		}
 	}
 
-	public static void main(String[] args) {
-		S170 trouser = new S170 ();
-		trouser.matchShirt();
-
-	}
+	
 
 }
 //Answer

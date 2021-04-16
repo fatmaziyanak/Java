@@ -1,4 +1,4 @@
-package OCA223_Q61_71;
+package q065;
 
 public class Q_65 {
 	public static void main(String[] args) {

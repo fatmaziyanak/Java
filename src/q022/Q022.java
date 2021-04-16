@@ -1,6 +1,7 @@
 package q022;
 
 public class Q022 {
+	//static int ans;
 	public static void main(String[] args) {
 		int ans; // if it is initialized, for example int ans = 0;  --> Answer 0
 		try {
